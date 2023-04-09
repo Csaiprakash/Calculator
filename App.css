@@ -1,0 +1,44 @@
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items:center ; 
+}
+.box{
+  top:15%;
+  left:40%;
+  position:absolute;
+  margin:0 auto;
+  width:300px;
+  border:.3rem solid black;
+  border-radius:.2rem;
+}
+.buttons{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: minmax(65px,auto);
+  background:rgb(186, 231, 242);
+}
+input[type="text"]{
+  height: 70px;
+  width:292px;
+  border-radius: .2rem;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 3px;
+  letter-spacing: 2px;
+}
+button{
+  margin:5px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #262626;;
+  color:#fff;
+}
+.main{
+  background-color: green;
+}
